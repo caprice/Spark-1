@@ -1272,17 +1272,6 @@ public class StringUtils {
     }
 
     /**
-     * Escapes [CDATA[]]> in String so it can be used in an XML doc.
-     * 
-     * @param string
-     * 			the string to escape.
-     * @return the string with appropriate characters escaped.
-     */
-    public static String escapeCDATA(String string) {
-    	return string.replace("]]>", "]]&amp;gt;");
-    }
-    
-    /**
      * Escapes all necessary characters in the String so that it can be used
      * <p/>
      * in an XML doc.
@@ -1336,7 +1325,7 @@ public class StringUtils {
 	    }
 	}
 	if (last == 0) {
-	    return escapeCDATA(string);
+	    return string;
 	}
 	if (i > last) {
 	    out.append(input, last, i - last);
