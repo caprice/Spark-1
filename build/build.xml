@@ -22,8 +22,8 @@
 	<!-- Optional add this file to override any of the properties below -->
 	<property file="${basedir}/build/build.properties"/>
 	<property name="version.major" value="2"/>
-	<property name="version.minor" value="6"/>
-	<property name="version.revision" value="3"/>
+	<property name="version.minor" value="7"/>
+	<property name="version.revision" value="0.1"/>
 
 	<property name="version.extra" value="12555"/>
 
@@ -113,8 +113,8 @@
               value="jingle.jar,mail.jar,activation.jar,dom4j.jar,startup.jar,base.jar,i4jruntime.jar"/>
 
 	<!-- IzPack Installer -->
-	<property name="installer.izpack.dir" value="/opt/IzPack/"/>
-	<property name="launch4j.dir" location="/opt/Launch4j" />
+	<property name="installer.izpack.dir" value="C:\\Program Files\\IzPack\\"/>
+	<property name="launch4j.dir" location="C:\\Program Files\\Launch4j\\" />
 
 	<!-- Inno Setup -->
 	<property name="innosetup.dir" location="C:\\Programme\\Inno Setup 5\\" />

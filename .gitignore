@@ -1,7 +1,12 @@
+*.class
 .classpath
 .project
 .settings
-.class
-target/
-bin/
-
+*.properties
+*.db
+*.jar
+bin/*
+target/*
+installer/*
+*.png
+*.gif
