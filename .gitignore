@@ -10,3 +10,10 @@ target/*
 installer/*
 *.png
 *.gif
+*.html
+*.xml
+*.dll
+*.wav
+*src/commercial/*
+src\commercial\spelling-plugin.jar
+*.rtf
