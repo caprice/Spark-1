@@ -1,6 +1,5 @@
 <html>
 <head>
-<title>Spark Changelog</title>
 <style type="text/css">
 </style>
 </head>
